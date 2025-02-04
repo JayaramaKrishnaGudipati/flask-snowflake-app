@@ -1,0 +1,8 @@
+{
+  "SNOWFLAKE_ACCOUNT": "pigaxln-qmb03958",
+  "SNOWFLAKE_USER": "JRK",
+  "SNOWFLAKE_PASSWORD": "Jayaram@3",
+  "SNOWFLAKE_DATABASE": "my_database",
+  "SNOWFLAKE_SCHEMA": "my_schema",
+  "SNOWFLAKE_WAREHOUSE": "my_warehouse"
+}

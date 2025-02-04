@@ -1,0 +1,16 @@
+{
+    "repository": {
+        "repositoryArn": "arn:aws:ecr:us-east-1:650251731217:repository/snowflake-app",
+        "registryId": "650251731217",
+        "repositoryName": "snowflake-app",
+        "repositoryUri": "650251731217.dkr.ecr.us-east-1.amazonaws.com/snowflake-app",
+        "createdAt": "2025-02-03T21:53:37.326000+05:30",
+        "imageTagMutability": "MUTABLE",
+        "imageScanningConfiguration": {
+            "scanOnPush": false
+        },
+        "encryptionConfiguration": {
+            "encryptionType": "AES256"
+        }
+    }
+}
