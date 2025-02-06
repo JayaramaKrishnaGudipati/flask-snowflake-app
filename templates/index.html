@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Snowflake Web App</title>
+</head>
+<body>
+    <h2>User Records</h2>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        {% for row in records %}
+        <tr>
+            <td>{{ row[0] }}</td>
+            <td>{{ row[1] }}</td>
+            <td>{{ row[2] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <h2>Insert User</h2>
+    <form method="POST" action="/insert">
+        ID: <input type="text" name="id" required><br>
+        Name: <input type="text" name="name" required><br>
+        Age: <input type="number" name="age" required><br>
+        <button type="submit">Insert</button>
+    </form>
+
+    <h2>Update User</h2>
+    <form method="POST" action="/update">
+        ID: <input type="text" name="id" required><br>
+        Name: <input type="text" name="name" required><br>
+        Age: <input type="number" name="age" required><br>
+        <button type="submit">Update</button>
+    </form>
+</body>
+</html>

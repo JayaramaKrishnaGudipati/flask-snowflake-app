@@ -1,5 +1,5 @@
 # Use the official Python image as a base
-FROM python:3.10
+FROM public.ecr.aws/python/python:3.10
 
 # Set the working directory in the container
 WORKDIR /app
